@@ -12,7 +12,7 @@ function calculateArea() {
         output.innerText = "The area of Triangle is : " + area + "cm²";
     }
     else{
-        alert("Kindly enter positive integer values for base ad height both")
+        alert("Kindly enter positive integer values for base and height both")
     }
 }
 
