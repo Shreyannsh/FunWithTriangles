@@ -4,12 +4,15 @@ var button = document.querySelector("#button");
 var output = document.querySelector("#output");
 
 function calculateHypotenuse(){
-    console.log("clicked");
-    // var input1 = Number(side1.value);
-    // var input2 = Number(side2.value);
-    
-    // hypotenuse = math.sqrt((input1*input1) + (input2*input2));
-    // console.log(hypotenuse);
+
+    var input1 = Number(side1.value);
+    var input2 = Number(side2.value);
+    var hypotenuse = Math.sqrt((input1*input1) + (input2*input2));
+    result = hypotenuse.toFixed(2);
+
+    output.innerText= "The hypotenus is : " + result;
+
 }
+
 
 button.addEventListener("click",calculateHypotenuse);
