@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="quiz.css" rel ="stylesheet"/>
+    <title>Triangles Quiz</title>
+</head>
+<body>
+    <h1>Triangle Quiz</h1>
+    <form id="form">
+        <div>
+            <p>1. What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+
+            <input type ="radio" name = option1 id ="one" value ="45degree">
+            <label for="one">45 Degree</label>
+            <input type="radio" name=" option1" id="two" value="60degree">
+            <label for="two">60 Degree</label>
+            <input type="radio" name="option1" id="three" value="90degree">
+            <label for="three" >90 Degree</label>
+
+        </div>
+
+        <div>
+            <p>2. If a triangle has an angle of 90 degrees, what is it called?</p>
+
+            <input type="radio" name="option2" id ="one" value ="acute">
+            <label for="one">Acute</label>
+            <input type="radio" name="option2" id="two" value ="obtuse">
+            <label for="two">Obtuse</label>
+            <input type="radio" name ="option2" id="three" value="right-angled">
+            <label for="three">Right-Angled</label>
+        </div>
+
+        <div>
+            <p>3. A triangle that has no equal sides and no equal angles is known as :</p>
+
+            <input type="radio" name="option3" id ="one" value ="scalene">
+            <label for="one">scalene</label>
+            <input type="radio" name="option3" id="two" value ="isosceles">
+            <label for="two">isosceles</label>
+            <input type="radio" name ="option3" id="three" value="equilateral">
+            <label for="three">equilateral </label>
+        </div>
+
+        <div>
+            <p>4. Area of a triangle with base b and height h is represented by :</p>
+            
+            <input type="radio" name="option4" id ="one" value ="2x b x h">
+            <label for="one">2x b x h</label>
+            <input type="radio" name="option4" id="two" value ="(1/2) x b x h">
+            <label for="two">(1/2) x b x h</label>
+            <input type="radio" name ="option4" id="three" value="2 x b x h">
+            <label for="three">2 x b x h</label>
+        </div>
+
+        <div>
+            <p>5. If ABC is an equilateral triangle, then each angle equals to : </p>
+
+            <input type="radio" name="option5" id ="one" value ="45degree">
+            <label for="one">45 Degree</label>
+            <input type="radio" name="option5" id="two" value ="60degree">
+            <label for="two">60 Degree</label>
+            <input type="radio" name ="option5" id="three" value="90degree">
+            <label for="three">90 Degree</label>
+        </div>
+    </form>
+    <div>
+        <button type="submit" id="button">Submit Answers</button>
+    </div>
+
+        <p id="output"> </p>
+
+
+    <script src = "quiz.js" text="text/javascript"></script>
+</body>
+</html>
