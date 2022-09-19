@@ -1,0 +1,21 @@
+body{
+    margin:0;
+}
+
+.navigation{
+    background-color: gray;
+    margin:auto;
+}
+
+ .brand{
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.navBar{
+    display:inline;
+    padding: 1rem 2rem;
+}
+.list{
+text-align: start;
+}
