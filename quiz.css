@@ -1,11 +1,13 @@
 body{
     margin: 0px auto;
-    text-align: left;
     background-image: url("imaages/guerrillabuzz-crypto-pr-MpL4w1vb798-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: 1365px 635px;
     background-attachment: fixed;
 
+}
+#form{
+    text-align: left;
 }
 
 h1{

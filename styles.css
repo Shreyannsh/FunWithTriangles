@@ -2,11 +2,12 @@ body{
 background-image: url("imaages/guerrillabuzz-crypto-pr-MpL4w1vb798-unsplash.jpg");
 background-repeat: no-repeat;
 background-size: 1365px 635px;
+text-align: center;
 
 }
 
 .navigation{
-    background-color: gray;
+    background:transparent;
     margin:auto;
     margin-top: 0px;
 }
@@ -15,9 +16,38 @@ background-size: 1365px 635px;
     color: whitesmoke;
     text-align: center;
     margin-bottom: 2rem;
+    font-size: 3rem;
+}
+.brandd{
+    font-size: 9rem;
+    font-style:normal;
+    margin-bottom: 5rem;
 }
 .navBar{
     display:inline;
-    padding: 1rem 2rem;
+    padding: 0.5rem 1rem;
+    border:  solid rgb(126, 123, 123);
+    margin:0.5rem;
+    border-style: groove ;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 8px;
+    background-color: blueviolet;
+    
+   
+}
+ .navBar a{
+    text-decoration: none;
+    color: black;
+    
+}
+h1{
+    color:antiquewhite;
+    margin-top: 3rem;
+    font-size: 2rem;
 }
 
+/* .list{
+    background-color: brown;
+    height: 3rem;
+    padding: 1rem;
+} */
