@@ -46,6 +46,10 @@ h1{
     font-size: 2rem;
 }
 
+.activelink{
+    font-weight:bold;
+}
+
 /* .list{
     background-color: brown;
     height: 3rem;
