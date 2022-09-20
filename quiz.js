@@ -16,7 +16,7 @@ const data = new FormData(formAnswers);
     }
     index= index+1;
  }
-  output.innerText= "Your score is : " + score;
+  output.innerText= "Your score is : " + score+ " out of  5";
 }
 
 buttton.addEventListener("click",calculateScore);

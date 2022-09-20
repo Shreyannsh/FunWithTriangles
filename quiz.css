@@ -1,0 +1,55 @@
+body{
+    margin: 0px auto;
+    text-align: left;
+    background-image: url("imaages/guerrillabuzz-crypto-pr-MpL4w1vb798-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 1365px 635px;
+    background-attachment: fixed;
+
+}
+
+h1{
+    text-align: center;
+    font-size:3rem;
+    margin-bottom: 2rem;
+    color:blanchedalmond;
+}
+p{
+    color:rgb(211, 170, 117);
+    font-size: large;
+}
+
+label{
+    margin:0rem;
+    font-size: larger;
+    font-weight: 600;
+    padding: 0.5rem;
+    color:brown;
+}
+
+input{
+    margin:0.5rem;
+    height: 1.5rem;
+    font-size: larger;
+    background: transparent;
+    color:blanchedalmond;
+    
+}
+
+button{
+    padding:0.5rem 1rem;
+    font-size: medium;
+    font-weight: 500;
+    background-color:antiquewhite;
+    text-align: center;
+    margin: 2rem;
+    display:block;
+    margin: auto;
+}
+
+h2{
+    color: blanchedalmond;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+}

@@ -3,16 +3,19 @@ var side2 = document.querySelector("#side2");
 var button = document.querySelector("#button");
 var output = document.querySelector("#output");
 
-function calculateHypotenuse(){
+function calculateHypotenuse() {
 
     var input1 = Number(side1.value);
     var input2 = Number(side2.value);
-    var hypotenuse = Math.sqrt((input1*input1) + (input2*input2));
-    result = hypotenuse.toFixed(2);
+    if (input1 && input2 > 0) {
+        var hypotenuse = Math.sqrt((input1 * input1) + (input2 * input2));
+        result = hypotenuse.toFixed(2);
 
-    output.innerText= "The hypotenus is : " + result;
-
+        output.innerText = "The hypotenus is : " + result;
+    }
+    else{
+        alert("Kindly enter positive integer values for both the sides")
+    }
 }
 
-
-button.addEventListener("click",calculateHypotenuse);
+button.addEventListener("click", calculateHypotenuse);
