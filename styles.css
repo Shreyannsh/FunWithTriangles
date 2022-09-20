@@ -1,10 +1,14 @@
 body{
-    margin:0;
+background-image: url("imaages/guerrillabuzz-crypto-pr-MpL4w1vb798-unsplash.jpg");
+background-repeat: no-repeat;
+background-size: 1365px 635px;
+
 }
 
 .navigation{
     background-color: gray;
     margin:auto;
+    margin-top: 0px;
 }
 
  .brand{
@@ -16,6 +20,4 @@ body{
     display:inline;
     padding: 1rem 2rem;
 }
-.list{
-text-align: start;
-}
+
