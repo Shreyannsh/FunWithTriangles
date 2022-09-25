@@ -11,10 +11,11 @@ function calculateHypotenuse() {
         var hypotenuse = Math.sqrt((input1 * input1) + (input2 * input2));
         result = hypotenuse.toFixed(2);
 
-        output.innerText = "The hypotenus is : " + result;
+        output.innerText = "The hypotenus is : " + result + "cm";
     }
     else{
-        alert("Kindly enter positive integer values for both the sides")
+        
+        alert("Kindly enter positive integer values for both the sides");
     }
 }
 
