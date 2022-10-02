@@ -15,7 +15,7 @@ function calculateHypotenuse() {
     }
     else{
         
-        alert("Kindly enter positive integer values for both the sides");
+       output.innerText = "Kindly enter positive integer values for both the sides";
     }
 }
 

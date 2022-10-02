@@ -19,7 +19,7 @@ function calculateSumOfTriangles(){
     }
     }
     else{
-        alert("Kindly enter positive integer values for all the angles")
+        output.innerText="Kindly enter positive integer values for all the angles";
     }
 }
 
