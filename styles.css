@@ -1,52 +1,53 @@
-body{
-background-image: url("imaages/guerrillabuzz-crypto-pr-MpL4w1vb798-unsplash.jpg");
-background-repeat: no-repeat;
-background-size: 1365px 635px;
-text-align: center;
+body {
+    background-image: url("imaages/guerrillabuzz-crypto-pr-MpL4w1vb798-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 1365px 635px;
+    text-align: center;
 
 }
 
-.navigation{
-    background:transparent;
-    margin:auto;
+.navigation {
+    background: transparent;
+    margin: auto;
     margin-top: 0px;
 }
 
- .brand{
+.brand {
     color: whitesmoke;
     text-align: center;
     margin-bottom: 2rem;
     font-size: 3rem;
 }
-.brandd{
+
+.brandd {
     font-size: 9rem;
-    font-style:normal;
+    font-style: normal;
     margin-bottom: 5rem;
 }
-.navBar{
-    display:inline;
+
+.navBar {
+    display: inline;
     padding: 0.5rem 1rem;
-    border:  solid rgb(126, 123, 123);
-    margin:0.5rem;
-    border-style: groove ;
+    border: solid rgb(126, 123, 123);
+    margin: 1.5rem;
+    border-style: groove;
     border-top-left-radius: 15px;
     border-bottom-right-radius: 8px;
     background-color: blueviolet;
-    
-   
 }
- .navBar a{
+
+.navBar a {
     text-decoration: none;
     color: black;
-    
+
 }
-h1{
-    color:antiquewhite;
+
+h1 {
+    color: antiquewhite;
     margin-top: 3rem;
     font-size: 2rem;
 }
 
-.activelink{
-    font-weight:bold;
+.activelink {
+    font-weight: bold;
 }
-

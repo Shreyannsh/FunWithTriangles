@@ -7,7 +7,7 @@ function calculateArea() {
     input1 = Number(base.value);
     input2 = Number(height.value);
 
-    if (input1 && input2 > 0) {
+    if (input1 > 0 && input2 > 0) {
         area = 0.5 * (input1 * input2);
         output.innerText = "The area of Triangle is : " + area + "cm²";
     }

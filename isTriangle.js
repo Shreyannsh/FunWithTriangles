@@ -10,7 +10,7 @@ function calculateSumOfTriangles(){
 
     var sum = Number(input1) + Number(input2) + Number(input3);
 
-    if (input1 && input2 && input3 > 0){
+    if (input1 > 0 && input2 > 0 && input3 > 0){
     if(sum ===180){
         output.innerText = "Yah! These angles will form a Triangle";
     }

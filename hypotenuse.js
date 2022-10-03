@@ -7,7 +7,7 @@ function calculateHypotenuse() {
 
     var input1 = Number(side1.value);
     var input2 = Number(side2.value);
-    if (input1 && input2 > 0) {
+    if (input1 > 0 && input2 > 0) {
         var hypotenuse = Math.sqrt((input1 * input1) + (input2 * input2));
         result = hypotenuse.toFixed(2);
 
