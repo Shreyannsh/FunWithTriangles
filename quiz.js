@@ -10,7 +10,7 @@ index=0;
 score=0;
 const data = new FormData(formAnswers);
  for(var value of data.values()){
-    console.log(value);
+  
     if(value === correctAnswers[index]){
         score = score+1;
     }
