@@ -6,4 +6,4 @@ This is a simple fun Triangle Quiz App made using Vanilla JS to check the basic 
 3. Calculates hypotenuse of a triangle from user given the other two sides as inputs.
 4. Calculate area of a triangle given the base and height of a triangle.
 
-https://ffun-with-triangless.netlify.app/
+Checkout - https://ffun-with-triangless.netlify.app/
