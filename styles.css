@@ -48,8 +48,19 @@ h1 {
     margin-top: 3rem;
     font-size: 2rem;
 }
+.activelink{
+    display: inline;
+    padding: 12px 18px;
+    border: solid rgb(126, 123, 123);
+    margin: 1.5rem;
+    border-style: groove;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 8px;
+    background-color: blueviolet;
+}
 
-.activelink {
+.activelink a{
     font-weight: bold;
-    color: whitesmoke;
+    color:  antiquewhite;
+   
 }
