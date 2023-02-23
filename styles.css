@@ -13,6 +13,7 @@ body {
 }
 
 .brand {
+    text-decoration: none;
     color: whitesmoke;
     text-align: center;
     margin-bottom: 2rem;
@@ -50,4 +51,5 @@ h1 {
 
 .activelink {
     font-weight: bold;
+    color: whitesmoke;
 }
